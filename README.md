@@ -31,7 +31,6 @@ parkinson-tda-rmt-spectral/
 ├── requirements.txt
 └── README.md
 
-
 ---
 
 ## Feature Design
