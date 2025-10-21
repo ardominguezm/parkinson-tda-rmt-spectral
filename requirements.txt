@@ -1,0 +1,37 @@
+# ==========================================
+# Parkinson TDA–RMT–Spectral Classification
+# In review (2025)
+# ==========================================
+
+# Core Scientific Computing
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+
+# Machine Learning
+scikit-learn==1.5.2
+statsmodels==0.14.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Persistence and Topological Data Analysis (TDA)
+giotto-tda==0.6.1
+ripser==0.6.1
+persim==0.3.5
+
+# Signal Processing and Spectral Features
+librosa==0.10.2
+soundfile==0.12.1
+
+# Notebook Environment
+jupyterlab==4.2.5
+ipykernel==6.29.5
+
+# Optional Utilities
+tqdm==4.66.5
+joblib==1.4.2
+
+# Compatibility and Environment
+python-dotenv==1.0.1
