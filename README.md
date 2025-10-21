@@ -1,13 +1,33 @@
-# Parkinson-TDA-RMT-Spectral
+# Parkinson Voice Classification using TDA, RMT, and Spectral Features
 
-This repository contains the implementation of the hybrid topological, spectral, and random matrix theory (RMT) framework 
-for Parkinson’s disease voice classification. The approach integrates synthetic data generation and evaluation on real recordings.
+This repository provides the implementation of a hybrid topological, spectral, and random matrix theory (RMT) framework 
+for Parkinson’s disease detection from voice recordings.  
+It integrates **synthetic training data** and **real-world validation**, combining **Topological Data Analysis (TDA)**, 
+**Random Matrix Theory (RMT)**, and **Spectral descriptors**.
 
-##  Repository Structure
-- `src/`: Python source files (main experiment, feature extraction, analysis)
-- `notebooks/`: Exploratory and redundancy analyses
-- `figures/`: Automatically generated figures
-- `results/`: Cross-validation metrics
-- `data/`: Placeholder for real and synthetic signal folders
+---
 
-##  Requirements
+## Repository Structure
+
+parkinson-tda-rmt-spectral/
+│
+├── src/
+│ ├── main_experiment.py
+│ ├── feature_extraction.py
+│ ├── redundancy_analysis.py
+│ ├── visualization_tools.py
+│ └── utils.py
+│
+├── data/
+│ ├── real_signals/
+│ ├── synthetic_signals/
+│ └── README.md
+│
+├── figures/
+├── results/
+├── notebooks/
+│ └── exploratory_analysis.ipynb
+│
+├── requirements.txt
+└── README.md
+
