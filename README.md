@@ -31,3 +31,20 @@ parkinson-tda-rmt-spectral/
 ├── requirements.txt
 └── README.md
 
+
+---
+
+## Feature Design
+
+| Feature Family | Components | Description | Count |
+|----------------|-------------|--------------|--------|
+| **TDA** | PI, PL, PE | Persistence image, landscape, and entropy | 1051 |
+| **RMT** | Eigenvalue statistics | Spectral entropy, λmax, variance, IPR | 6 |
+| **Spectral** | MFCCs, deltas, moments | 13 MFCCs + derivatives + 4 spectral moments | 60 |
+| **Hybrid** | TDA + RMT + Spectral | Concatenated full descriptor set | **1117** |
+
+---
+
+## Requirements
+```bash
+pip install -r requirements.txt
