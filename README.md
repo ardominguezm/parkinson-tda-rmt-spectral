@@ -12,8 +12,7 @@ Andy Domínguez-Monterroza, Alfonso Mateos-Caballero, Antonio Jiménez-Martín, 
 ## Overview  
 
 This repository provides the full implementation of a hybrid **Topological Data Analysis(TDA)**, **Random Matrix Theory (RMT)**,  
-and **Spectral feature** framework for *Parkinson’s disease voice classification*.  
-The model is trained on **synthetic voice data** and evaluated on **real recordings**,  
+and **Spectral feature** framework for *Parkinson’s disease voice classification*.   The model is trained on **synthetic voice data** and evaluated on **real recordings**,  
 analyzing topological, spectral, and geometric structure in the voice dynamics of patients and controls.  
 
 ---
