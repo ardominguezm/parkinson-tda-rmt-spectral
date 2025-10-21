@@ -37,6 +37,7 @@ parkinson-tda-rmt-spectral/
 │   ├── main_experiment.py          # Main classification pipeline (SVM & MLP)
 │   ├── feature_extraction.py       # TDA, RMT, and spectral feature computation
 │   ├── redundancy_analysis.py      # PCA, correlation, and weighted fusion analysis
+│   ├── statistical_tests.py         # Performs statistical significance testing between classifiers (MLP vs SVM) and across feature sets (TDA, RMT, Spectral, and hybrids)
 │   ├── visualization_tools.py      # t-SNE, PCA 3D, and correlation plots
 │   └── utils.py                    # Data loading and preprocessing helpers
 │
@@ -44,10 +45,6 @@ parkinson-tda-rmt-spectral/
 │   ├── real_signals/               # Real recordings (control / pathological)
 │   ├── synthetic_signals/          # Synthetic generated recordings
 │   └── README.md                   # Notes on dataset organization
-│
-├── notebooks/
-│   ├── exploratory_analysis.ipynb  # Supplementary visualization & validation
-│   └── redundancy_study.ipynb      # PCA & redundancy exploration
 │
 ├── figures/                        # All figures generated automatically (.png)
 ├── results/                        # Output metrics and CSV reports
