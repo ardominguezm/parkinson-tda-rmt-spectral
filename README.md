@@ -46,8 +46,7 @@ parkinson-tda-rmt-spectral/
 │   ├── synthetic_signals/          # Synthetic generated recordings
 │   └── README.md                   # Notes on dataset organization
 │
-├── figures/                        # All figures generated automatically (.png)
-├── results/                        # Output metrics and CSV reports
+
 │
 ├── requirements.txt
 ├── LICENSE
