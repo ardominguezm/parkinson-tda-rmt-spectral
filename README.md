@@ -1,6 +1,6 @@
 # Parkinson Voice Classification using TDA, RMT, and Spectral Features
 
-This repository provides the implementation of a hybrid topological, spectral, and random matrix theory (RMT) framework for Parkinson’s disease detection from voice recordings.  It integrates **synthetic training data** and **real-world validation**, combining **Topological Data Analysis**, **Random Matrix Theory** and **Spectral descriptors**.
+This repository provides the implementation of a hybrid topological, spectral, and random matrix theory (RMT) framework for Parkinson’s disease detection from voice recordings.  It integrates **synthetic training data** and **real-world validation**, combining **Topological Data Analysis(TDA)**, **Random Matrix Theory(RMT)** and **Spectral descriptors**.
 
 
 **Domínguez-Monterroza A., Mateos-Caballero A, Jiménez-Martín A.**, Machine Learning for Parkinson’s Disease Detection: Analyzing Hybrid Voice Data with Spectral, Topological, and Random Matrix Methods, In review (2025), *IEEE Open Journal of Computer Society* 
@@ -10,7 +10,7 @@ This repository provides the implementation of a hybrid topological, spectral, a
 
 ## Overview  
 
-This repository provides the full implementation of a hybrid **Topological Data Analysis(TDA)**, **Random Matrix Theory (RMT)** and **Spectral feature** framework for *Parkinson’s disease voice classification*.   The model is trained on **synthetic voice data** and evaluated on **real recordings**,  
+This repository provides the full implementation of a hybrid **Topological Data Analysis**, **Random Matrix Theory** and **Spectral feature** framework for *Parkinson’s disease voice classification*.   The model is trained on **synthetic voice data** and evaluated on **real recordings**,  
 analyzing topological, spectral, and geometric structure in the voice dynamics of patients and controls.  
 
 ---
